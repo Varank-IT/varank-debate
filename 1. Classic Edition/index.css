@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
-body {
-    font-family: 'Poppins', sans-serif;
-    padding: 0px;
-    margin: 0px;
-    max-width: 100vw;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-}
 
 #loading {
     width: 100vw;
@@ -41,87 +31,12 @@ body {
     }
 }
 
-header {
-    width: 92vw;
-    padding: 6vh 4vw;
-    position: fixed;
-    font-weight: bold;
-    background: transparent;
-    color: #fff;
-    transition: 0.4s ease-in-out;
-    z-index: 2;
-}
 
-header table {
-    width: 100%;
-}
 
-#logo {
-    width: 20%;
-}
 
-#navigation {
-    width: 80%;
-}
-
-#magnify {
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.92);
-    position: fixed;
-    z-index: 4;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#magnify h1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 20px 40px;
-    color: #fff;
-    transition: 0.4s ease-in-out;
-}
-
-#magnify h1:hover {
-    color: rgb(255, 44, 90);
-    cursor: pointer;
-}
-
-#img_here {
-    width: 90%;
-    height: 90%;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    margin: 0px auto;
-}
-
-#logo {
-    font-size: 24px;
-    color: rgb(255, 44, 90);
-}
-
-#navigation {
-    text-align: right;
-}
-
-#navigation a {
-    color: inherit;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-bottom: 2px solid transparent;
-    margin-left: 4vw;
-    transition: 0.4s ease-in-out;
-}
-
-#navigation a:hover {
-    border-bottom: 2px solid #fff;
-}
 
 #top_part {
     width: 100%;
-    border: 2vh solid #fff;
 }
 
 #top_part tr td {
@@ -325,18 +240,6 @@ header table {
     left: 30px;
 }
 
-#footer {
-    width: 100%;
-    padding: 10vh 0px;
-    text-align: center;
-    font-weight: bold;
-}
-
-#footer a {
-    color: rgb(255, 44, 90);
-    text-decoration: none;
-}
-
 ::placeholder {
     color: #000;
 }
@@ -365,11 +268,11 @@ button:focus {
 .faq-section {
 
     min-height: 100vh;
-    padding: 0px 10%;
+    /* padding: 0px 10%; */
     font-weight: bold;
 }
 
-.faq-title h1 {
+/* .faq-title h1 {
     position: relative;
     margin-bottom: 50px;
     display: inline-block;
@@ -385,11 +288,22 @@ button:focus {
     background: #E91E63;
     bottom: -25px;
     margin-left: -30px;
+} */
+
+.faq-title h1 {
+    padding: 5px 0px;
+    border-bottom: 4px solid rgb(255, 44, 90);
+    width: 8%;
 }
+
 
 .faq-title p {
     padding: 0 190px;
     margin-bottom: 10px;
+}
+
+.faq-warp {
+    padding: 6vh 4vw
 }
 
 .faq {
@@ -443,11 +357,8 @@ button:focus {
     display: inline-block;
     width: 20px;
     height: 20px;
-    line-height: 14px;
-    float: left;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
+    line-height: 20px;
+    border-radius: 50%;
     text-align: center;
     background: #E91E63;
     color: #fff;
@@ -469,6 +380,58 @@ button:focus {
 
 .faq .card .card-body p {
     margin-bottom: 14px;
+}
+
+.sponsors {
+    padding: 6vh 4vw;
+}
+
+.sponsors h1 {
+    padding: 5px 0px;
+    border-bottom: 4px solid rgb(255, 44, 90);
+    width: 8%;
+}
+
+
+.container2 {
+	width: 100%;
+	display: flex;
+	/* padding: 0 20px; */
+    gap: 20px
+}
+
+.slide {
+	height: 80vh;
+	border-radius: 20px;
+	/* margin: 10px; */
+	cursor: pointer;
+	color: #fff;
+	flex: 1;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	transition: all 500ms ease-in-out;
+}
+
+.slide h3 {
+	position: absolute;
+	font-size: 24px;
+	bottom: 50px;
+	left: 20px;
+	margin: 0;
+	opacity: 0;
+}
+
+
+.slide.active {
+	flex: 10;
+}
+
+.slide.active h3 {
+	opacity: 1;
+	transition: opacity 0.3s ease-in 0.4s;
 }
 
 @media (max-width: 1000px) {
