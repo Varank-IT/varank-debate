@@ -4,6 +4,7 @@
         <AboutSection />
         <TeamSection />
         <FaqSection />
+        <ContactsSection />
     </div>
 </template>
 
@@ -13,16 +14,18 @@ import Hero from '../components/Hero.vue';
 import AboutSection from '../components/AboutSection.vue';
 import TeamSection from '../components/TeamSection.vue';
 import FaqSection from '../components/FaqSection.vue';
+import ContactsSection from '../components/ContactsSection.vue';
 
 export default {
     name: 'MainView',
     components: {
-        TheHeader,
-        Hero,
-        AboutSection,
-        TeamSection,
-        FaqSection
-    }
+    TheHeader,
+    Hero,
+    AboutSection,
+    TeamSection,
+    FaqSection,
+    ContactsSection
+}
 }
 </script>
 
