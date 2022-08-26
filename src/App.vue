@@ -14,6 +14,8 @@ import TheFootie from './components/TheFootie.vue';
 /* yayyy */
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+
+
 body {
     font-family: 'Poppins', sans-serif;
     padding: 0px;
@@ -22,6 +24,7 @@ body {
     width: 100vw;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background-color: white;
 }
 
 .wife,

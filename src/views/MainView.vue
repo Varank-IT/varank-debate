@@ -4,8 +4,8 @@
         <AboutSection />
         <TeamSection />
         <FaqSection />
-        <SponsorsSection />
         <ContactsSection />
+        <SponsorsSection />
     </div>
 </template>
 
@@ -16,7 +16,7 @@ import AboutSection from '../components/AboutSection.vue';
 import TeamSection from '../components/TeamSection.vue';
 import FaqSection from '../components/FaqSection.vue';
 import ContactsSection from '../components/ContactsSection.vue';
-import SponsorsSection from '../components/sponsors/SponsorsSection.vue';
+import SponsorsSection from '../components/SponsorsSection.vue';
 
 export default {
     name: 'MainView',
