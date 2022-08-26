@@ -1,4 +1,5 @@
 <template>
+<div id="faq"></div>
     <section class="faq-section">
         <div class="faq-warp">
             <SectionLabel label="FAQ" />
@@ -9,8 +10,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </div>    
+    </section>  
 </template>
 
 <script>

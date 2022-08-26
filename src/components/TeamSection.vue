@@ -1,9 +1,11 @@
 <template>
-    <div class="team">
+   <div id="ourteam">
+   <div class="team">
         <SectionLabel label="Our Team!" />
         <SliderContainer>
             <Slide v-for="(member, index) in theTeam" :key="member" :info="member" :isActive="activeItem === index" @click="activeItem = index" />
         </SliderContainer>
+    </div>
     </div>
 </template>
 

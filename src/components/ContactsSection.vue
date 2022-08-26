@@ -1,6 +1,6 @@
 <template>
 <div id="contact">
-        <h1>Location</h1>
+        <h1>Contact</h1>
         <table>
             <tr>
                 <td>

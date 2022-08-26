@@ -1,4 +1,5 @@
 <template>
+<div id="about">
     <section class="bio-section">
         <div id="bio">
             <SectionLabel label="About" />
@@ -7,9 +8,9 @@
                 outsmarted by your teenage followers? Try VDebate! It's an IRL Twitter simulator with more than 50
                 participants that last for 2 days!
             </p>
-            
         </div>
     </section>
+</div>    
 </template>
 
 <script>
@@ -24,7 +25,7 @@ export default {
 </script>
 
 <style scoped>
-#bio {
+#about {
     width: 92vw;
     padding: 6vh 4vw;
     font-weight: bold;

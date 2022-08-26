@@ -4,7 +4,8 @@
             <tr>
                 <td id="logo">Varank Debate</td>
                 <td id="navigation">
-                    <a href="#bio">About</a>
+                    <a href="#about">About</a>
+                    <a href="#ourteam">Our Team</a>
                     <a href="#faq">FAQ</a>
                     <a href="#contact">Contact</a>
                 </td>
