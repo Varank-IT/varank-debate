@@ -1,17 +1,16 @@
 <template>
-<div id="faq"></div>
     <section class="faq-section">
         <div class="faq-warp">
             <SectionLabel label="FAQ" />
             <div class="container">
                 <div class="row">
                     <div class="faq">
-                            <AccordionItem v-for="(faq, index) in faqs" :key="faq" :info="faq" :badgeNumber="index + 1" />
+                        <AccordionItem v-for="(faq, index) in faqs" :key="faq" :info="faq" :badgeNumber="index + 1" />
                     </div>
                 </div>
             </div>
-        </div>    
-    </section>  
+        </div>
+    </section>
 </template>
 
 <script>
@@ -30,19 +29,15 @@ export default {
         faqs: [
             {
                 question: 'When is the event taking place?',
-                answer: 'Oct. 12-13'
+                answer: 'November 12 13'
             },
             {
                 question: 'Where will the event be held?',
-                answer: 'In our campus or some shit idk'
-            },
-            {
-                question: 'But but but how much does it cost!!!',
-                answer: 'I don\'t know but I can assure you that they aren\'t paying me enough'
+                answer: 'In our campus! The address can be found at the end of this page.'
             },
             {
                 question: 'What is the quota?',
-                answer: '60... for now ;)'
+                answer: '48 teams that consist of two people.'
             }
         ]
     })
@@ -54,6 +49,7 @@ export default {
     min-height: 100vh;
     min-height: 50vh;
     font-weight: bold;
+    text-align: left;
 }
 
 .faq-warp {

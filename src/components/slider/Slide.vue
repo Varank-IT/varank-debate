@@ -1,23 +1,23 @@
 <template>
-    <div class="slide" :class="{ 'active': isActive }">
-        <h3>{{ info.name }}</h3>
-    </div>
+	<div class="slide" :class="{ 'active': isActive }">
+		<h3>{{ info.name }}</h3>
+	</div>
 </template>
 
 <script>
 export default {
-    name: 'Slide',
-    props: {
-        info: {
-            type: Object,
-            required: true
-        },
-        isActive: Boolean
-    },
-    computed: {
-        backgroundURL() {
-            return `url(${this.info.image})`;
-        }
+	name: 'Slide',
+	props: {
+		info: {
+			type: Object,
+			required: true
+		},
+		isActive: Boolean
+	},
+	computed: {
+		backgroundURL() {
+			return `url(${this.info.image})`;
+		}
 	}
 }
 </script>
@@ -26,7 +26,7 @@ export default {
 .slide {
 	height: 80vh;
 	border-radius: 20px;
-	/* margin: 10px; */
+	margin: 10px;
 	cursor: pointer;
 	color: #fff;
 	flex: 1;
@@ -36,7 +36,7 @@ export default {
 	position: relative;
 	overflow: hidden;
 	transition: all 500ms cubic-bezier(0.625, 0.225, 0.100, 0.890);
-    background-image: v-bind(backgroundURL);
+	background-image: v-bind(backgroundURL);
 }
 
 .slide h3 {

@@ -1,7 +1,7 @@
 <template>
-  <TheHeader />
-  <MainView />
-  <TheFootie />
+    <TheHeader />
+    <MainView />
+    <TheFootie />
 </template>
 
 <script setup>
@@ -12,23 +12,20 @@ import TheFootie from './components/TheFootie.vue';
 
 <style>
 /* yayyy */
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
-
+@import url('https://fonts.googleapis.com/css?family=Sen');
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sen', sans-serif;
     padding: 0px;
     margin: 0px;
-    /* max-width: 100vw; */
-    width: 100vw;
+    max-width: 100vw;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: white;
 }
 
 .wife,
-.women-in-general { /* excluding aegean chicks */
+.women-in-general {
+    /* excluding aegean chicks */
     right: 100%;
     margin: 0;
 }

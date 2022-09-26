@@ -16,8 +16,11 @@ export default {
 
 <style scoped>
 h1 {
-    padding: 5px 0px;
-    border-bottom: 4px solid rgb(255, 44, 90);
-    width: 8%;
+    margin: auto;
+    border-bottom-width: auto;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 44, 90);
+    width: auto;
+    text-align: center;
 }
 </style>

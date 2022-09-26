@@ -1,16 +1,17 @@
 <template>
-<div id="about">
     <section class="bio-section">
         <div id="bio">
             <SectionLabel label="About" />
             <p>
-                Hello there! Are you a 15 year + white person losing your argument on Twitter? Are you tired of being
-                outsmarted by your teenage followers? Try VDebate! It's an IRL Twitter simulator with more than 50
-                participants that last for 2 days!
+                VDebate is a Debate Championship that will be organized in the last quarter of 2022 and for the first
+                time in the history of Varank
+                Science High School. Participants eliminate their opponents by debating on
+                the topics given to them.
+
+                Be the First Champions of Varank Debate. Sign Up Today.
             </p>
         </div>
     </section>
-</div>    
 </template>
 
 <script>
@@ -25,10 +26,10 @@ export default {
 </script>
 
 <style scoped>
-#about {
-    width: 92vw;
-    padding: 6vh 4vw;
-    font-weight: bold;
+#bio {
+    font-size: 20px;
+    margin-left: 17%;
+    margin-right: 17%;
+    text-align: center;
 }
 </style>
-
